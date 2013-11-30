@@ -1,5 +1,5 @@
-name = Sub Foundation
-description = ZURB Foundation Sub-theme, custom sub-theme based on the the Zurb Foundation base theme.
+name = Lightsoon Foundation
+description = ZURB Foundation Sub-theme, custom sub-theme based on the the Zurb Foundation base theme & the Light Soon html template.
 screenshot = images/screenshot.png
 
 core = 7.x
