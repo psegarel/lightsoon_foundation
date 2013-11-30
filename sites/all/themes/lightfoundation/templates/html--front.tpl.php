@@ -52,8 +52,8 @@
   <?php print $head; ?>
   <meta name="author" content="Patrick Segarel" />
   <title><?php print $head_title; ?></title>
-  <?php print $styles; ?>
-  
+
+  <?php print $styles; ?>  
   <!--Lightsoon Stylesheet-->
   <!--[if IE 7]>
   <link rel="stylesheet" href="sites/all/themes/lightfoundation/css/fontello-ie7.css">
@@ -63,9 +63,11 @@
   <link href="<?php print drupal_get_path('theme', 'lightfoundation').'/css/fontello.css';?>" rel="stylesheet" type="text/css">
   <link href="<?php print drupal_get_path('theme', 'lightfoundation').'/css/main.css';?>" rel="stylesheet" type="text/css">
   <link href="<?php print drupal_get_path('theme', 'lightfoundation').'/css/ui.totop.css';?>" rel="stylesheet" type="text/css">
+  <link href="<?php print drupal_get_path('theme', 'lightfoundation').'/css/local.css';?>" rel="stylesheet" type="text/css">
 
   <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	  <link href="/css/ie.css" rel="stylesheet" type="text/css" />
+	  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
 
@@ -77,8 +79,9 @@
   }
   </style>
   <![endif]-->
-    
-  <?php print $scripts; ?>
+
+
+	<?php print $scripts; ?>
   <!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->

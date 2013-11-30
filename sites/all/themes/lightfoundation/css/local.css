@@ -1,0 +1,15 @@
+/* line 1, ../scss/local.scss */
+header {
+  z-index: 100;
+  padding-top: 20px;
+}
+
+/* line 4, ../scss/local.scss */
+.teaserTitle h1 {
+  color: #FFFFFF;
+}
+
+/* line 7, ../scss/local.scss */
+.teaserTitle h1:before {
+  border-bottom: 1px solid #FFFFFF;
+}
