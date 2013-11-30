@@ -1,2 +1,7 @@
 <?php
 
+function baseproject_preprocess_html(&$variables)
+{
+	//dsm($variables);
+}
+

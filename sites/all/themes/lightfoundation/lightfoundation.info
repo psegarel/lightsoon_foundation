@@ -27,9 +27,10 @@ base theme = zurb_foundation
 ; CSS3 media queries: http://www.w3.org/TR/css3-mediaqueries/
 
 ; For CSS users, load the app.css file:
-stylesheets[all][] = css/app.css
+;stylesheets[all][] = css/app.css
 ; Comment the app.css file (above) if you're using sass to preprocess css:
 stylesheets[all][] = css/custom.css
+stylesheets[all][] = css/local.css
 
 ; Foundation JavaScript.
 
