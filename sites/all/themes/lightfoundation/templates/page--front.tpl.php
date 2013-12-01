@@ -32,6 +32,7 @@
 						<li><a href="#about">about me</a></li>
 						<li><a href="#newsletter">newsletter</a></li>
 						<li><a href="#services">services</a></li>
+						<li><a href="#testimonials">testimonials</a></li>
 						<li><a href="#contact">contact</a></li>
 					</ul>
 				<!-- Messages -->
@@ -203,6 +204,7 @@
 				<div class="holder960 clearfix">
 					<!--Testimonials-->
 					<div id="testimonials">
+						<p>&nbsp;</p>
 						<div class="quote"><span><i class="icon-quote-right"></i></span></div>
 						
 						<!--Testimonials container-->

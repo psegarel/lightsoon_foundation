@@ -4,12 +4,21 @@ header {
   padding-top: 20px;
 }
 
-/* line 4, ../scss/local.scss */
-.teaserTitle h1 {
+/* line 8, ../scss/local.scss */
+.teaserTitle h1,
+#testimonials blockquote,
+.testimoniaContainer h3,
+ul.pagination li a,
+ul.pagination li.current a {
   color: #FFFFFF;
 }
 
-/* line 7, ../scss/local.scss */
+/* line 11, ../scss/local.scss */
+ul.pagination li.current a {
+  border-color: #ffffff;
+}
+
+/* line 14, ../scss/local.scss */
 .teaserTitle h1:before {
   border-bottom: 1px solid #FFFFFF;
 }
